@@ -34,7 +34,6 @@ export default class App extends Component {
           name: json.weather[0].main,
           isLoaded: true
         })
-        console.log(this.state)
       })
   }
 
